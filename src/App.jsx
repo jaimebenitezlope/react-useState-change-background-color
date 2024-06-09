@@ -1,10 +1,9 @@
-import { GlobalStyles } from './styles/GlobalStyles';
+import Square from './components/square/Square';
 
 const App = () => {
 	return (
 		<>
-			<GlobalStyles />
-			<h1>Núcleo de la aplicación</h1>
+			<Square />
 		</>
 	);
 };
